@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact-Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- <div class="container">
+        <h1>Contact-Form</h1>
+        <div class="one">
+            <label>Name:</label>
+            <input type="text" placeholder="Enter user name"  id="username">
+        </div>
+        <div  class="one">
+            <label>Password:</label>
+            <input type="text" placeholder="Enter user name" id="password">
+        </div>
+        <div  class="one">
+            <label>Email:</label>
+            <input type="text" placeholder="Enter user name"id="email" >
+        </div>
+
+        <button onclick="change()">Register</button><br><br>
+        <table width="100%">
+            <thead>
+                <th>Name</th>
+                <th>Password</th>
+                <th>Email</th>
+            </thead>
+            <tr>
+                <td id="td1"></td>
+                <td id="td2"></td>
+                <td id="td3"></td>
+            </tr>
+        </table>
+    </div>
+
+
+    -->
+
+    <input type ="password" placeholder="Password" id="pass">
+    <button onclick="change()">Show Password</button>
+
+    <script>
+     function change(){
+           var password = document.getElementById("pass");
+           passwordValue = password.type;
+          if(passwordValue === "password"){
+            password.type = "text"
+          }else{
+            password.type = "password"
+          }
+     }
+
+    </script>
+
+
+    <script src="script.js"></script>
+    </script>
+
+  </body>
+</html>
+</body>
+</html>
